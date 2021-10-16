@@ -299,6 +299,7 @@
           unarchive:
             src: /tmp/cri-containerd-cni-1.4.6-linux-amd64.tar.gz
             dest: /
+            remote_src: yes
             extra_opts:
               - --no-overwrite-dir
         
@@ -332,6 +333,7 @@
           unarchive:
             src: /tmp/cri-containerd-cni-1.5.0-linux-amd64.tar.gz
             dest: /
+            remote_src: yes
             extra_opts:
               - --no-overwrite-dir
         
