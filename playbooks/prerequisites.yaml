@@ -364,7 +364,7 @@
         - kubelet
         - containerd
 
-    handlers:
+  handlers:
     - name: update-initramfs
       become: true
       command: update-initramfs -u
