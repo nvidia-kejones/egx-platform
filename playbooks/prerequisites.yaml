@@ -244,9 +244,9 @@
             mode: 666
             path: /etc/modules-load.d/containerd.conf
             line: "{{ item }}"
-            loop:
-              - "overlay"
-              - "br_netfilter"
+          loop:
+            - "overlay"
+            - "br_netfilter"
 
         - name: Modprobe for overlay and br_netfilter
           modprobe:
